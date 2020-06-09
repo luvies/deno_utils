@@ -37,7 +37,7 @@ export interface Options {
  */
 export function formatList(
   str: string,
-  lst: string[],
+  lst: readonly string[],
   opts?: Options,
 ): string {
   if (lst.length === 0) {

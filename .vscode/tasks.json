@@ -16,7 +16,7 @@
     {
       "label": "Test",
       "type": "shell",
-      "command": "deno test",
+      "command": "deno test --allow-read",
       "options": {
         "cwd": "${workspaceFolder}"
       },

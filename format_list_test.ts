@@ -1,5 +1,5 @@
-import { assertEquals } from "https://deno.land/std/testing/asserts.ts";
 import { formatList } from "./format_list.ts";
+import { assertEquals } from "./test_deps.ts";
 
 Deno.test({
   name: "should leave the string untouched when given an empty list",

@@ -12,4 +12,4 @@ jobs:
       - name: Build
         run: deno cache --reload ./_cache.ts
       - name: Test
-        run: deno test
+        run: deno test --allow-read
